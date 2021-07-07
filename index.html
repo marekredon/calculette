@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet calculatrice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!--Header-->
+  <div class="container">
+    <div class="header">
+      <p class="header-logo">calc</p>
+
+      <div class="header-left">
+
+        <p class="header-left-title">THEME</p>
+
+        <div class="header-themes">
+          <span class="header-theme"> 1</span>
+          <span class="header-theme"> 2</span>
+          <span class="header-theme"> 3</span>
+        </div>
+        <div class="header-selectors">
+
+          <div class="radio-item">
+            <input type="radio" checked id="ritema" name="ritem" value="ropt1">
+            <label for="ritema"></label>
+          </div>
+
+          
+          <div class="radio-item">
+            <input type="radio" id="ritemb" name="ritem" value="ropt2">
+            <label for="ritemb"></label>
+          </div>
+
+          
+          <div class="radio-item">
+            <input type="radio" id="ritemc" name="ritem" value="ropt3">
+            <label for="ritemc"></label>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!--END --Header-->
+
+    <!--Screen-->
+    <input class="screen" disabled type="texte" value="0" />
+    <!--END screen-->
+
+    <!--content buttons calculator-->
+    <div class="keyboard">
+
+      <!--première ligne-->
+      <div class="keyboard-row">
+        <button type="button" class="keyboard-btn" value="7">7</button>
+        <button type="button" class="keyboard-btn" value="8">8</button>
+        <button type="button" class="keyboard-btn" value="9">9</button>
+        <button type="button" class="keyboard-btn keyboard-btn__blue" value="DEL">DEL</button>
+      </div>
+      <!--END première ligne-->
+      <!--deuxième ligne-->
+      <div class="keyboard-row">
+        <button type="button" class="keyboard-btn" value="4">4</button>
+        <button type="button" class="keyboard-btn" value="5">5</button>
+        <button type="button" class="keyboard-btn" value="6">6</button>
+        <button type="button" class="keyboard-btn" value="+">+</button>
+      </div>
+      <!--END deuxième ligne-->
+      <!--troisième ligne-->
+      <div class="keyboard-row">
+        <button type="button" class="keyboard-btn" value="1">1</button>
+        <button type="button" class="keyboard-btn" value="2">2</button>
+        <button type="button" class="keyboard-btn" value="3">3</button>
+        <button type="button" class="keyboard-btn" value="-">-</button>
+      </div>
+      <!--END troisième ligne-->
+      <!--quatrième ligne-->
+      <div class="keyboard-row">
+        <button type="button" class="keyboard-btn" value=".">.</button>
+        <button type="button" class="keyboard-btn" value="0">0</button>
+        <button type="button" class="keyboard-btn" value="/">/</button>
+        <button type="button" class="keyboard-btn" value="*">x</button>
+      </div>
+      <!--END quatrième ligne-->
+      <!--dernière ligne-->
+      <div class="keyboard-row">
+        <button type="button" class="keyboard-btn keyboard-btn__blue keyboard-btn__double" value="RESET">RESET</button>
+        <button type="button" class="keyboard-btn keyboard-btn__red keyboard-btn__double" value="=">=</button>
+      </div>
+      <!--END dernière ligne-->
+    </div>
+    <!--div calculator-->
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
