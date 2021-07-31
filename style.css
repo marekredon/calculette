@@ -19,7 +19,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 80vh;
   background: var(--background-color);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,5 +279,13 @@ input.screen::placeholder {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 20px;
+}
+
+.note {
+  color: green;
+}
+
+a:link {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

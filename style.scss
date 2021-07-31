@@ -19,7 +19,7 @@
   padding: 0;
 }
 body {
-  height: 100vh;
+  height: 80vh;
   background: var(--background-color);
   display: flex;
   align-items: center;
@@ -198,4 +198,11 @@ input.screen {
       padding-top: 20px;
     }
   }
+}
+
+.note {
+color: green;
+}
+a:link{
+  text-decoration: none;
 }
