@@ -225,7 +225,7 @@ input.screen::placeholder {
 }
 
 .keyboard-row {
-  width: 480px;
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -287,5 +287,21 @@ input.screen::placeholder {
 
 a:link {
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .keyboard-row {
+    width: 100%;
+  }
+  .keyboard-btn__double {
+    width: 100%;
+  }
+  .keyboard-btn__blue {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
